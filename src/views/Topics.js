@@ -1,5 +1,5 @@
 import topics from '../data/topics.json';
-import Topic from '../components/topic';
+import Topic from '../components/Topic';
 const Topics = () => {
     return (
       <div>
