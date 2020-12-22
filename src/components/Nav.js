@@ -12,7 +12,7 @@ const Nav = () => {
     history.push(`/add-faq`);
   };
     return (
-      <div style={{ backgroundColor:"Red", width:"100%" }}>
+      <div className="w-full bg-yellow-800 py-4 px-4">
         <Link to="/">Home</Link>
         <Link to="/about" style={{ marginLeft: "10px" }}>About</Link>
         <Link to="/topics" style={{ marginLeft: '10px' }}>Topics</Link>
